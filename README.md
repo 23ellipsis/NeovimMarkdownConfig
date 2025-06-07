@@ -5,7 +5,7 @@ git clone https://github.com/23ellipsis/NvimConfig ~/.config/nvim/
 ```
 
 # Theme
-For the theme provided in the screenshot:
+(dashboard.png)
 1. Paste the following into `~/.local/share/nvim/lazy/base46/lua/base46/themes/mytheme.lua`
 ```
 local M = {}
@@ -71,5 +71,7 @@ return M
 
 2. Open Neovim and hit `<leader + th>` (leader is the space key)
 3. Choose "mytheme"
+______
+
 
 
