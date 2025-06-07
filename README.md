@@ -5,7 +5,8 @@ git clone https://github.com/23ellipsis/NvimConfig ~/.config/nvim/
 ```
 
 # Theme
-For the theme provided in the screenshot, paste the following into `~/.local/share/nvim/lazy/base46/lua/base46/themes/mytheme.lua`
+For the theme provided in the screenshot:
+1. Paste the following into `~/.local/share/nvim/lazy/base46/lua/base46/themes/mytheme.lua`
 ```
 local M = {}
 
@@ -68,6 +69,7 @@ M = require("base46").override_theme(M, "mytheme")
 return M
 ```
 
-then open neovim and hit <leader + th> and choose "mytheme"
+2. Open Neovim and hit `<leader + th>` (leader is the space key)
+3. Choose "mytheme"
 
 
