@@ -1,10 +1,10 @@
 # Installation
 
 ```
-git clone https://github.com/23ellipsis/NvimConfig ~/.config/nvim/
+git clone https://github.com/23ellipsis/NeovimMarkdownConfig ~/.config/nvim/
 ```
 
-# Theme
+## Theme
 ![dashboard](dashboard.png)
 1. Paste the following into `~/.local/share/nvim/lazy/base46/lua/base46/themes/mytheme.lua`
 ```
